@@ -13,12 +13,31 @@ h1{
     display: flex;
     margin: 100px;
 }
+.ex-item2{
+    box-shadow: 10px 10px 70px gray;
+    width: 190%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left:  7px solid  blue;
+}
+.ex-item{
+    box-shadow: 10px 10px 70px gray;
+    width: 190%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left:  7px solid #FA6D5A;
+}
 .half-width{
+
        width: 50%;
-       padding: 2%;
+       padding: 50px;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -39,4 +58,13 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     margin: 0%;
+}
+.experiances{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+footer p{
+    text-align: center;
+
 }
